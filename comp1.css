@@ -1,0 +1,11 @@
+@import url('./comp2.css');
+.Comp1 {
+    color: blue;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.Comp1.is-selected {
+    border: 10px solid gold;
+    padding-left: -30px;
+}

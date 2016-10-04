@@ -1,0 +1,10 @@
+.Comp2 {
+    color: red;
+    margin: 20px;
+    line-height: 10px;
+}
+
+.Comp2.is-selected {
+    border: 10px solid green;
+    margin-left: -30px;
+}
