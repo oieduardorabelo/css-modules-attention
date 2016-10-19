@@ -2,10 +2,10 @@ var path = require('path')
 var webpack = require('webpack')
 var postcssPluginAutoReset = require('postcss-autoreset')
 var postcssPluginInitial = require('postcss-initial')()
-var ExtractTextPlugin = require("extract-text-webpack-plugin")
-var styleguideExtractTextPlugin = new ExtractTextPlugin("styleguide.bundle.css")
-var comp1ExtractTextPlugin = new ExtractTextPlugin("comp1.bundle.css")
-var comp2ExtractTextPlugin = new ExtractTextPlugin("comp2.bundle.css")
+var ExtractTextPlugin = require('extract-text-webpack-plugin')
+var styleguideExtractTextPlugin = new ExtractTextPlugin('styleguide.bundle.css')
+var comp1ExtractTextPlugin = new ExtractTextPlugin('comp1.bundle.css')
+var comp2ExtractTextPlugin = new ExtractTextPlugin('comp2.bundle.css')
 
 module.exports = {
     entry: path.resolve('main.js'),
