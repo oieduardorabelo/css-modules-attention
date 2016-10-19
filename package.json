@@ -1,0 +1,31 @@
+{
+  "name": "css-modules-attention",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --colors --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oieduardorabelo/css-modules-attention.git"
+  },
+  "keywords": [],
+  "author": "Eduardo Rabelo <oieduardorabelo@gmail.com> (https://github.com/oieduardorabelo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oieduardorabelo/css-modules-attention/issues"
+  },
+  "homepage": "https://github.com/oieduardorabelo/css-modules-attention#readme",
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "json-loader": "^0.5.4",
+    "path": "^0.12.7",
+    "postcss-autoreset": "^1.2.1",
+    "postcss-initial": "^1.5.2",
+    "postcss-loader": "^1.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
+}
