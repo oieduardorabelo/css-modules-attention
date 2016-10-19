@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "webpack --colors --progress"
+    "build": "webpack --colors --progress",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
