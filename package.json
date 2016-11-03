@@ -18,14 +18,14 @@
     "url": "https://github.com/oieduardorabelo/css-modules-attention/issues"
   },
   "homepage": "https://github.com/oieduardorabelo/css-modules-attention#readme",
-  "dependencies": {
-    "css-loader": "^0.25.0",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "json-loader": "^0.5.4",
-    "postcss-autoreset": "^1.2.1",
-    "postcss-initial": "^1.5.2",
-    "postcss-loader": "^1.0.0",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
+  "devDependencies": {
+    "css-loader": "0.25.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "json-loader": "0.5.4",
+    "postcss-autoreset": "1.2.1",
+    "postcss-initial": "1.5.2",
+    "postcss-loader": "1.1.0",
+    "style-loader": "0.13.1",
+    "webpack": "1.13.3"
   }
 }
